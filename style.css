@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.containerVertical{
+    background: #555;
+    width: 10%;
+    position: absolute;
+    left: 15em;
+}
+
+.containerVertical a{
+    color: white;
+}
+
+.containerVertical .icon{
+    text-align: center;
+    display: block;    
+    font-size: 40px;
+    padding: 30px;
+}
+
+.containerVertical .icon:hover{
+    background: #000;
+    color: white;
+}
+
+.containerVertical .active:hover{
+    background: blueviolet;
+}
+
+.active{
+    background: blueviolet;
+}
+
+.containerHorizontal{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.containerHorizontal a {
+    float: left;
+    background: #555;
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 30px 0;
+    transition: all 0.3s ease;
+    font-size: 36px;
+    color: white;
+}
+
+.containerHorizontal .icon:hover{
+    background: #000;
+    color: white;
+}
+
+.containerHorizontal .active{
+    background: blueviolet;
+}
+
+.containerHorizontal .active:hover{
+    background: blueviolet;
+}
+
